@@ -1,5 +1,4 @@
 public class bindu{
-    public void display(){
+    public String name;
 
     }
-}

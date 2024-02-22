@@ -20,5 +20,6 @@ public class AbstractTest {
         System.out.println(contractEmployee.displayEmployeeDetails("1638","Priya"));
 
         System.out.println("Salary is " + contractEmployee.calculateSalary());
+
     }
 }

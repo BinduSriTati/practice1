@@ -1,9 +1,12 @@
 package Inheritance;
 
-public class Dog {
+public class Dog extends Animal {
     public void sound(){
-        System.out.println("dog barks");
+
+       System.out.println("dog barks");
     }
+
+
     public void tail(){
         System.out.println("dog tail");
     }
@@ -12,5 +15,7 @@ public class Dog {
         Dog dog=new Dog();
         dog.sound();
         dog.tail();
+        //Animal animal=new Animal();
+        //animal.sound();
     }
 }
